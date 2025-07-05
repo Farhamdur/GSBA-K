@@ -9,9 +9,9 @@
 <!-- # ETA -->
 
 <h2 align="center">
-  <a href="https://arxiv.org/abs/2410.06625v2">
+  <a href="https://openreview.net/forum?id=htX7AoHyln">
     GSBA<sup>K</sup>: <i>top</i>-<i>K</i> Geometric Score-based Black-box Attack
-  </a> (Accepted in ICLR 2025)
+  </a> (ICLR 2025)
 </h2>
 
 
@@ -24,4 +24,4 @@
 
 ## Abstract
 
-Existing score-based adversarial attacks mainly focus on crafting *topK-1* adversarial examples against classifiers with single-label classification. Their attack success rate and query efficiency are often less than satisfactory, particularly under small perturbation requirements; moreover, the vulnerability of classifiers with multi-label learning is yet to be studied. In this paper, we propose a comprehensive surrogate free score-based attack, named \b geometric \b score-based \b black-box \b attack (\GSBAK{K}), to craft adversarial examples in an aggressive \topK{K} setting for both untargeted and targeted attacks, where the goal is to change the \topK{K} predictions of the target classifier. We introduce novel gradient-based methods to find a good initial boundary point to attack. Our iterative method employs novel gradient estimation techniques, particularly effective in \topK{K} setting, on the decision boundary to effectively exploit the geometry of the decision boundary. Additionally, \GSBAK{K} can be used to attack against classifiers with \topK{K} multi-label learning. Extensive experimental results on ImageNet and PASCAL VOC datasets validate the effectiveness of \GSBAK{K} in crafting \topK{K} adversarial examples.
+Existing score-based adversarial attacks mainly focus on crafting *top-1* adversarial examples against classifiers with single-label classification. Their attack success rate and query efficiency are often less than satisfactory, particularly under small perturbation requirements; moreover, the vulnerability of classifiers with multi-label learning is yet to be studied. In this paper, we propose a comprehensive surrogate free score-based attack, named geometric score-based black-box attack (GSBA<sup>K</sup>), to craft adversarial examples in an aggressive *top-K* setting for both untargeted and targeted attacks, where the goal is to change the *top-K* predictions of the target classifier. We introduce novel gradient-based methods to find a good initial boundary point to attack. Our iterative method employs novel gradient estimation techniques, particularly effective in *top-K* setting, on the decision boundary to effectively exploit the geometry of the decision boundary. Additionally, GSBA<sup>K</sup> can be used to attack against classifiers with *top-K* multi-label learning. Extensive experimental results on ImageNet and PASCAL VOC datasets validate the effectiveness of GSBA<sup>K</sup> in crafting *top-K* adversarial examples.
