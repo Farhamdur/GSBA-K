@@ -28,7 +28,7 @@ Existing score-based adversarial attacks mainly focus on crafting *top-1* advers
 
 ## Three Key Steps of GSBA<sup>K</sup>
 <div align="center">
-    <img src="assets/key_steps.jpg" alt="GSBA steps" width="600px">
+    <img src="assets/key_steps.jpg" alt="GSBA steps" width="800px">
 </div>
 
 (a) Estimating the gradient in the non-adversarial region to approach the decision boundary iteratively to find a better initial boundary point; 
@@ -38,3 +38,27 @@ Existing score-based adversarial attacks mainly focus on crafting *top-1* advers
 (c) Finding the next boundary point with reduced perturbation along a semicircular trajectory under the guidance by the estimated gradient on decision boundary.
 
 
+## Requirements
+Before executing the code, ensure that the following packages are installed in your environment:
+* PyTorch and Trochvision
+* Numpy
+* Os
+* SciPy
+
+
+## Run
+1. To execute the untargeted attack, run `untargeted_attack.py`.
+2. To execute the targeted attack, run `targeted_attack.py`.
+
+## Citation
+Please consider citing our paper in your publications if it contributes to your research.
+```
+@inproceedings{
+reza2025gsbak,
+title={GSBA $^K $: $top$-$K$ Geometric Score-based Black-box Attack},
+author={Md Farhamdur Reza and Richeng Jin and Tianfu Wu and Huaiyu Dai},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=htX7AoHyln}
+}
+```
