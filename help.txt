@@ -1,0 +1,5 @@
+To perform the targeted attack, run targeted_attack.py file
+To perform the untargeted attack, run untargeted_attack.py file
+
+
+To analyze the obtianed results, use analyse_results_targeted.ipynb and analyse_results_untargeted.ipynb files provided in the path of the results.
