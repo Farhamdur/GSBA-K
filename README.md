@@ -28,7 +28,7 @@ Existing score-based adversarial attacks mainly focus on crafting *top-1* advers
 
 ## Three Key Steps of GSBA<sup>K</sup>
 <div align="center">
-    <img src="assets/key_steps.jpg" alt="GSBA steps" width="256px">
+    <img src="assets/key_steps.jpg" alt="GSBA steps" width="600px">
 </div>
 
 (a) Estimating the gradient in the non-adversarial region to approach the decision boundary iteratively to find a better initial boundary point; 
