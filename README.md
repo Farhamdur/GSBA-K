@@ -40,7 +40,7 @@ Existing score-based adversarial attacks mainly focus on crafting *top-1* advers
 
 ## Requirements
 Before executing the code, ensure that the following packages are installed in your environment:
-* PyTorch and Trochvision
+* PyTorch and Torchvision
 * Numpy
 * Os
 * SciPy
